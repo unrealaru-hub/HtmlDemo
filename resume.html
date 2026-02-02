@@ -34,7 +34,11 @@
             </a>
         </td>
     </table>
-    <a href="aboutMe.html">About MySelf</a>
+    <a  href="aboutMe.html">About MySelf</a>
+    <br>
+    <br>
+    <button style="background-color: aquamarine; color: black; padding: 5px;" id="mode">dark mode</button>
+
     <hr>
     <!-- heade section end  -->
 
@@ -178,6 +182,26 @@
 
     <p>github : arun8979, unrealhub</p>
 
+
+    <script>
+
+        let modebtn = document.getElementById("mode");
+        let currMode = "light";
+        modebtn.addEventListener("click", ()=>{
+            if(currMode === "light"){
+                currMode = "dark"
+                document.querySelector("body").style.backgroundColor = "black"
+                document.querySelector("body").style.color = "white"
+            }else{
+                currMode = "light"
+                document.querySelector("body").style.backgroundColor = "white"
+                document.querySelector("body").style.color = "black"
+
+
+
+            }
+        })
+    </script>
 </body>
 
 
