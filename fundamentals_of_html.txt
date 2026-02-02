@@ -1,0 +1,29 @@
+hyper text markup lenguage
+html is the structure of an website 
+
+we have many tags element and atribute in html 
+like:
+    <> opening tag
+    </> closing tag
+    < />. self closing tag
+    <p></p> pahragraph tag
+    <p> lorem100</p> random print multiple word over here
+Atribbute : An attribute gives extra information about an element.it is writen Inside the opening tag
+example : <a href="https://google.com">Google</a> href is an atribute
+Element : An element is a complete HTML unit:
+Opening tag
+Content
+Closing tag
+example: <p>Hello Arun</p>
+hr tag  :  line draw horizontal
+br tag. : breking tag
+b tag  : bold tag
+i tag : italic tag
+sup tag : superscript like x²
+sub tag : subscript like H₂O
+title tag shown in wesite search 
+head tag. main tag 
+html tag  this is also root tag
+body tag  all the code inner to this tag
+
+

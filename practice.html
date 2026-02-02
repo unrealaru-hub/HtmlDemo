@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="aru">Click to change color</h1>
+
+        <script>
+            let coloreChange = document.getElementById("aru");
+            coloreChange.addEventListener("click", () =>{
+                if(coloreChange.style.color === "black"){
+                    coloreChange.style.color = "red"
+                    coloreChange.innerText ="this is done my side"
+                }else{
+                    coloreChange.style.color = "black"
+                    coloreChange.innerText = "Click to change color";
+                }
+            })
+        </script>
+</body>
+</html>
